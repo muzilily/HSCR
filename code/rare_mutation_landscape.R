@@ -1,7 +1,7 @@
 library('GenVisR')
 library(reshape2)
 
-#no phenolyzer gene 
+#no phenolyzer gene (222genes)
 #read data
 mutation_data=read.table(file="sam150.snp.indel.Gene_Scan.filter.HGMD.MGI.xls",header=TRUE, sep="\t")
 #sample, genename, trv_type, chrom, pos, aachange
